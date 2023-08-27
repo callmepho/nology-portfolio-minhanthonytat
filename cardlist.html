@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./cardlist.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="skills">
+      <aside class="cardlist">
+        <a class="cardlist__card1 item-card" onclick="card1()">Card 1</a>
+        <a class="cardlist__card2 item-card" onclick="card2()">Card 2</a>
+        <a class="cardlist__card3 item-card" onclick="card3()">Card 3</a>
+      </aside>
+      <aside class="carddetail">
+        <div class="carddetail__card1" id="card1">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam qui
+            voluptate, eveniet distinctio eos laudantium error illum
+            voluptatibus ad vitae dolorum aperiam animi expedita adipisci magni,
+            cumque perspiciatis suscipit. Non.
+          </p>
+        </div>
+        <div class="carddetail__card2" id="card2">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+            recusandae sed illum, a corporis veritatis iure inventore assumenda
+            libero, perferendis voluptates repellat, et ex iusto ratione.
+            Corporis odit sunt recusandae!
+          </p>
+        </div>
+        <div class="carddetail__card3" id="card3">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis
+            eius omnis natus magnam eaque earum enim voluptates architecto autem
+            totam quasi unde necessitatibus deserunt labore beatae, tenetur
+            cumque perspiciatis ipsa.
+          </p>
+        </div>
+      </aside>
+    </section>
+    <script>
+      function card1() {
+        document.getElementById("card1").style.display = "block";
+        document.getElementById("card2").style.display = "none";
+        document.getElementById("card3").style.display = "none";
+      }
+      function card2() {
+        document.getElementById("card2").style.display = "block";
+        document.getElementById("card1").style.display = "none";
+        document.getElementById("card3").style.display = "none";
+      }
+      function card3() {
+        document.getElementById("card3").style.display = "block";
+        document.getElementById("card2").style.display = "none";
+        document.getElementById("card1").style.display = "none";
+      }
+    </script>
+  </body>
+</html>

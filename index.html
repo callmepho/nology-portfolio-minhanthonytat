@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Minh Anthony Tat - Junior Software Dev</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <h2 class="navbar__heading">Navbar Heading</h2>
+      <div class="navbar__link">
+        <a>Home</a>
+        <a>Projects</a>
+        <a>Contact</a>
+      </div>
+    </nav>
+    <h1>Heading</h1>
+    <section class="section project1">
+      <div class="section__image">
+        <img src="http://placekitten.com/200/300" />
+      </div>
+      <div class="section__text">
+        <h2 class="section__heading">Section 1 heading</h2>
+        <p class="section__para">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe
+          architecto et sed fugiat? Ab consequuntur aut quaerat id velit
+          accusantium quo ullam architecto vero sit, officiis commodi facere
+          officia itaque?
+        </p>
+      </div>
+    </section>
+    <section class="section project2">
+      <div class="section__image project2_image">
+        <img src="http://placekitten.com/200/300" />
+      </div>
+      <div class="section__text">
+        <h2 class="section__heading">Section 2 heading</h2>
+        <p class="section__para">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias
+          nesciunt id consequatur magni, quasi atque nostrum, blanditiis qui
+          beatae perferendis aliquid, et nulla excepturi iste sed ipsum non
+          numquam eaque.
+        </p>
+      </div>
+    </section>
+    <section class="section contact">
+      <div class="section__image">
+        <img src="http://placekitten.com/200/300" />
+      </div>
+      <div class="section__text">
+        <h2 class="section__heading">Section 3 heading</h2>
+        <p class="section__para">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
+          minus tempore sequi enim blanditiis, praesentium consequuntur totam
+          tempora dolorem debitis facere beatae accusantium eveniet, vitae
+          repudiandae voluptate ratione! Sit, dolorum.
+        </p>
+      </div>
+    </section>
+    <section class="skills">
+      <aside class="cardlist">
+        <a class="cardlist__card1 item-card" onclick="card1()">Card 1</a>
+        <a class="cardlist__card2 item-card" onclick="card2()">Card 2</a>
+        <a class="cardlist__card3 item-card" onclick="card3()">Card 3</a>
+      </aside>
+      <aside class="carddetail">
+        <div class="carddetail__card1" id="card1">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam qui
+            voluptate, eveniet distinctio eos laudantium error illum
+            voluptatibus ad vitae dolorum aperiam animi expedita adipisci magni,
+            cumque perspiciatis suscipit. Non.
+          </p>
+        </div>
+        <div class="carddetail__card2" id="card2">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+            recusandae sed illum, a corporis veritatis iure inventore assumenda
+            libero, perferendis voluptates repellat, et ex iusto ratione.
+            Corporis odit sunt recusandae!
+          </p>
+        </div>
+        <div class="carddetail__card3" id="card3">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis
+            eius omnis natus magnam eaque earum enim voluptates architecto autem
+            totam quasi unde necessitatibus deserunt labore beatae, tenetur
+            cumque perspiciatis ipsa.
+          </p>
+        </div>
+      </aside>
+    </section>
+    <script>
+      function card1() {
+        document.getElementById("card1").style.display = "block";
+        document.getElementById("card2").style.display = "none";
+        document.getElementById("card3").style.display = "none";
+      }
+      function card2() {
+        document.getElementById("card2").style.display = "block";
+        document.getElementById("card1").style.display = "none";
+        document.getElementById("card3").style.display = "none";
+      }
+      function card3() {
+        document.getElementById("card3").style.display = "block";
+        document.getElementById("card2").style.display = "none";
+        document.getElementById("card1").style.display = "none";
+      }
+    </script>
+  </body>
+</html>
