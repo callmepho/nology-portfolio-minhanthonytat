@@ -23,6 +23,11 @@
   padding: 25px 50px;
 }
 
+.section__heading {
+  display: flex;
+  justify-content: center;
+}
+
 .section__text {
   display: flex;
   flex-direction: column;
@@ -35,7 +40,6 @@ h1 {
 
 .skills {
   display: flex;
-  padding: 25px 50px;
 }
 
 .cardlist {

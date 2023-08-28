@@ -1,66 +1,71 @@
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  overflow: hidden;
-  background-color: lightblue;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: 50px;
+	display: flex;
+	justify-content: space-between;
+	overflow: hidden;
+	background-color: lightblue;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 50px;
 }
 
 .navbar__link {
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  padding: 10px;
-  gap: 10px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	padding: 10px;
+	gap: 10px;
 }
 
 .section {
-  display: flex;
-  flex-direction: row;
-  padding: 25px 50px;
+	display: flex;
+	flex-direction: row;
+	padding: 25px 50px;
+}
+
+.section__heading {
+	display: flex;
+	justify-content: center;
 }
 
 .section__text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 h1 {
-  margin-top: 70px;
+	margin-top: 70px;
 }
 
 .skills {
-  display: flex;
+	display: flex;
 }
 
 .cardlist {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  word-wrap: break-word;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	word-wrap: break-word;
 }
 
 .carddetail {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
 }
 
 .carddetail__card2 {
-  display: none;
+	display: none;
 }
 .carddetail__card3 {
-  display: none;
+	display: none;
 }
 
 .item-card {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100px;
-  width: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100px;
+	width: 100px;
 }
