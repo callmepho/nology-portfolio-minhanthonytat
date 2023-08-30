@@ -5,6 +5,11 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="./style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&display=swap"
+			rel="stylesheet" />
 		<title>Minh Anthony Tat - Junior Software Dev</title>
 	</head>
 	<body>
@@ -16,10 +21,28 @@
 				<a>Contact</a>
 			</div>
 		</nav>
-		<h1>Heading</h1>
+		<header class="header">
+			<h1 class="heading">
+				<span class="heading__italic" style="color: #bb9af7">const</span>
+				<span style="color: #bb9af7">profile</span> =
+				<span style="color: #7aa2f7">{</span> <br />
+				&nbsp; &nbsp;firstName<span style="color: #b4f9f8">: "</span
+				><span style="color: #9ece6a">Minh Anthony</span
+				><span style="color: #b4f9f8">",</span><br />
+				&nbsp; &nbsp;lastName<span style="color: #b4f9f8">: "</span
+				><span style="color: #9ece6a">Tat</span
+				><span style="color: #b4f9f8">",</span> <br />
+				&nbsp; &nbsp;role<span><span style="color: #b4f9f8">: "</span></span
+				><span style="color: #9ece6a">Junior Software Developer</span
+				><span style="color: #b4f9f8">",</span><br />
+				<span style="color: #7aa2f7">}</span
+				><span style="color: #b4f9f8">;</span
+				><span class="blinking" style="color: white">_</span>
+			</h1>
+		</header>
 		<section class="section aboutme">
 			<div class="section__text">
-				<h2 class="section__heading">Section 1 heading</h2>
+				<h2 class="section__heading">About</h2>
 				<p class="section__para">
 					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe
 					architecto et sed fugiat? Ab consequuntur aut quaerat id velit
@@ -27,12 +50,18 @@
 					officia itaque?
 				</p>
 			</div>
+			<div class="section__image">
+				<img src="http://placekitten.com/200/300" />
+			</div>
 		</section>
 		<section class="skills">
 			<aside class="cardlist">
-				<a class="cardlist__card1 item-card" onclick="card1()">Card 1</a>
-				<a class="cardlist__card2 item-card" onclick="card2()">Card 2</a>
-				<a class="cardlist__card3 item-card" onclick="card3()">Card 3</a>
+				<a class="cardlist__card1 item-card" onclick="card1()">html</a>
+				<a class="cardlist__card2 item-card" onclick="card2()">javascript</a>
+				<a class="cardlist__card3 item-card" onclick="card3()">react</a>
+				<a class="cardlist__card1 item-card" onclick="card4()">firebase</a>
+				<a class="cardlist__card2 item-card" onclick="card5()">spring</a>
+				<a class="cardlist__card3 item-card" onclick="card6()">c</a>
 			</aside>
 			<aside class="carddetail">
 				<div class="carddetail__card1" id="card1">
