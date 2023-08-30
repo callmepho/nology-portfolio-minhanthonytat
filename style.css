@@ -1,5 +1,6 @@
 body {
   font-family: "Inconsolata", monospace;
+  background-color: #1a1b26;
 }
 
 .navbar {
@@ -27,6 +28,10 @@ body {
   padding: 25px 50px;
 }
 
+.aboutme {
+  background-color: #24283b;
+}
+
 .section__heading {
   display: flex;
   align-self: flex-start;
@@ -39,16 +44,19 @@ body {
 
 .section__para {
   font-size: 20px;
+  color: rgb(207, 179, 18);
 }
 
 .heading {
   display: block;
   font-family: "Inconsolata", monospace;
-  font-size: 60px;
-  background-color: #1a1b26;
+  font-size: 80px;
+  background-color: #414868;
   color: #73daca;
-  padding: 5% 15% 20% 5%;
+  padding: 10% 0% 20% 5%;
   font-weight: 400;
+  margin: 5px;
+  border: 2px solid grey;
 }
 .heading__italic {
   font-style: italic;
@@ -70,10 +78,15 @@ body {
   color: grey;
 }
 
+h1 {
+  border: 1px solid white;
+}
+
 .skills {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #414868;
 }
 
 .cardlist {
@@ -122,6 +135,10 @@ body {
   justify-content: center;
   height: 50px;
   width: 200px;
+  border: 1px solid black;
+  border-radius: 15px 15px 5px 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .blinking {
