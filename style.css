@@ -11,8 +11,15 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  height: 50px;
+  margin: 0;
+  height: 40px;
   z-index: 1030;
+}
+
+.navbar__heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .navbar__link {
@@ -50,12 +57,13 @@ body {
 .heading {
   display: block;
   font-family: "Inconsolata", monospace;
-  font-size: 80px;
+  font-size: 20px;
   background-color: #414868;
   color: #73daca;
-  padding: 10% 0% 20% 5%;
+  height: 300px;
+  padding: 5% 0% 20% 5%;
   font-weight: 400;
-  margin: 5px;
+  margin: 51px;
   border: 2px solid grey;
 }
 .heading__italic {

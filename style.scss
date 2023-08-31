@@ -1,169 +1,177 @@
 body {
-  font-family: "Inconsolata", monospace;
-  background-color: #1a1b26;
+	font-family: "Inconsolata", monospace;
+	background-color: #1a1b26;
 }
 
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  overflow: hidden;
-  background-color: lightblue;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: 50px;
-  z-index: 1030;
+	display: flex;
+	justify-content: space-between;
+	overflow: hidden;
+	background-color: lightblue;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	margin: 0;
+	height: 40px;
+	z-index: 1030;
+}
+
+.navbar__heading {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .navbar__link {
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  padding: 10px;
-  gap: 10px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	padding: 10px;
+	gap: 10px;
 }
 
 .section {
-  display: flex;
-  padding: 25px 50px;
+	display: flex;
+	padding: 25px 50px;
 }
 
 .aboutme {
-  background-color: #24283b;
+	background-color: #24283b;
 }
 
 .section__heading {
-  display: flex;
-  align-self: flex-start;
+	display: flex;
+	align-self: flex-start;
 }
 
 .section__text {
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 .section__para {
-  font-size: 20px;
-  color: rgb(207, 179, 18);
+	font-size: 20px;
+	color: rgb(207, 179, 18);
 }
 
 .heading {
-  display: block;
-  font-family: "Inconsolata", monospace;
-  font-size: 80px;
-  background-color: #414868;
-  color: #73daca;
-  padding: 10% 0% 20% 5%;
-  font-weight: 400;
-  margin: 5px;
-  border: 2px solid grey;
-  &__italic {
-    font-style: italic;
-    font-weight: 200;
-  }
-  &__cyan {
-    color: #78dce8;
-  }
-  &__pink {
-    color: #ff6188;
-  }
-  &__purple {
-    color: #bb9af7;
-  }
-  &__yellow {
-    color: #9ece6a;
-  }
-  &__gray {
-    color: grey;
-  }
+	display: block;
+	font-family: "Inconsolata", monospace;
+	font-size: 20px;
+	background-color: #414868;
+	color: #73daca;
+	height: 300px;
+	padding: 5% 0% 20% 5%;
+	font-weight: 400;
+	margin: 51px;
+	border: 2px solid grey;
+	&__italic {
+		font-style: italic;
+		font-weight: 200;
+	}
+	&__cyan {
+		color: #78dce8;
+	}
+	&__pink {
+		color: #ff6188;
+	}
+	&__purple {
+		color: #bb9af7;
+	}
+	&__yellow {
+		color: #9ece6a;
+	}
+	&__gray {
+		color: grey;
+	}
 }
 
 h1 {
-  border: 1px solid white;
+	border: 1px solid white;
 }
 
 .skills {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #414868;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #414868;
 }
 
 .cardlist {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  word-wrap: break-word;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	word-wrap: break-word;
 }
 
 .carddetail {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 40%;
-  width: 60%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 40%;
+	width: 60%;
 }
 
 .carddetail__card1 {
-  align-items: center;
-  justify-content: center;
-  height: 40%;
-  width: 60%;
+	align-items: center;
+	justify-content: center;
+	height: 40%;
+	width: 60%;
 }
 
 .carddetail__card2 {
-  display: none;
-  align-items: center;
-  justify-content: center;
-  height: 40%;
-  width: 60%;
+	display: none;
+	align-items: center;
+	justify-content: center;
+	height: 40%;
+	width: 60%;
 }
 .carddetail__card3 {
-  display: none;
-  align-items: center;
-  justify-content: center;
-  height: 40%;
-  width: 60%;
+	display: none;
+	align-items: center;
+	justify-content: center;
+	height: 40%;
+	width: 60%;
 }
 
 .item-card {
-  font-size: 20px;
-  font-family: "Inconsolata", monospace;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 50px;
-  width: 200px;
-  border: 1px solid black;
-  border-radius: 15px 15px 5px 15px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+	font-size: 20px;
+	font-family: "Inconsolata", monospace;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50px;
+	width: 200px;
+	border: 1px solid black;
+	border-radius: 15px 15px 5px 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .blinking {
-  animation: blink 1s steps(5, start) infinite;
+	animation: blink 1s steps(5, start) infinite;
 }
 
 .bounce {
-  animation: bobbing 2s ease infinite;
+	animation: bobbing 2s ease infinite;
 }
 
 @keyframes blink {
-  to {
-    visibility: hidden;
-  }
+	to {
+		visibility: hidden;
+	}
 }
 
 @keyframes bobbing {
-  0% {
-    transform: translateY(0);
-  }
+	0% {
+		transform: translateY(0);
+	}
 
-  50% {
-    transform: translateY(-10px);
-  }
+	50% {
+		transform: translateY(-10px);
+	}
 
-  100% {
-    transform: translateY(0);
-  }
+	100% {
+		transform: translateY(0);
+	}
 }
