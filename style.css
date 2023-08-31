@@ -1,6 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Inconsolata", monospace;
   background-color: #1a1b26;
+  z-index: 1;
 }
 
 .navbar {
@@ -10,10 +16,9 @@ body {
   background-color: lightblue;
   position: fixed;
   top: 0;
+  z-index: 1;
   width: 100%;
-  margin: 0;
   height: 40px;
-  z-index: 1030;
 }
 
 .navbar__heading {
@@ -26,22 +31,36 @@ body {
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  padding: 10px;
-  gap: 10px;
+}
+
+.skills {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: #414868;
+  position: sticky;
+  top: 5%;
 }
 
 .section {
-  display: flex;
-  padding: 25px 50px;
+  z-index: 1;
+  height: 100vh;
 }
 
 .aboutme {
   background-color: #24283b;
+  position: sticky;
+  top: 10%;
 }
 
-.section__heading {
+.contact {
+  background-color: #414868;
+  position: sticky;
+  top: 15%;
+}
+
+.section {
   display: flex;
-  align-self: flex-start;
 }
 
 .section__text {
@@ -54,13 +73,20 @@ body {
   color: rgb(207, 179, 18);
 }
 
+header {
+  width: 100%;
+  position: sticky;
+  top: 50px;
+}
+
 .heading {
-  display: block;
+  display: flex;
+  flex-direction: column;
   font-family: "Inconsolata", monospace;
-  font-size: 20px;
+  font-size: 1.2vw;
   background-color: #414868;
   color: #73daca;
-  height: 300px;
+  height: 45vh;
   padding: 5% 0% 20% 5%;
   font-weight: 400;
   margin: 51px;
@@ -86,20 +112,18 @@ body {
   color: grey;
 }
 
-h1 {
-  border: 1px solid white;
+.heading__ascii {
+  display: flex;
 }
 
-.skills {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #414868;
+h1 {
+  border: 1px solid white;
 }
 
 .cardlist {
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: space-evenly;
   word-wrap: break-word;
 }
@@ -108,11 +132,13 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+  justify-content: center;
   height: 40%;
   width: 60%;
 }
 
 .carddetail__card1 {
+  display: flex;
   align-items: center;
   justify-content: center;
   height: 40%;

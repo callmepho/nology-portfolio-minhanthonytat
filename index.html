@@ -1,29 +1,29 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="./style.css" />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&display=swap"
-			rel="stylesheet" />
-		<title>Minh Anthony Tat - Junior Software Dev</title>
-	</head>
-	<body>
-		<nav class="navbar">
-			<h2 class="navbar__heading">Navbar Heading</h2>
-			<div class="navbar__link">
-				<a href="index.html">Home</a>
-				<a href="projects.html">Projects</a>
-				<a>Contact</a>
-			</div>
-		</nav>
-		<header class="header">
-			<h1 class="heading">
-				<pre>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&display=swap"
+      rel="stylesheet" />
+    <title>Minh Anthony Tat - Junior Software Dev</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <h2 class="navbar__heading">Navbar Heading</h2>
+      <div class="navbar__link">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a>Contact</a>
+      </div>
+    </nav>
+    <header class="header">
+      <h1 class="heading">
+        <pre class="heading__ascii">
   __  __  _         _                        _    _                            _______      _   
  |  \/  |(_)       | |         /\           | |  | |                          |__   __|    | |  
  | \  / | _  _ __  | |__      /  \    _ __  | |_ | |__    ___   _ __   _   _     | |  __ _ | |_ 
@@ -33,92 +33,95 @@
                                                                         __/ |                   
                                                                        |___/                    
 </pre
-				>
-				Enter username: CallMePho <br />
-				Enter password: ************* <br />
-				Loading profile.js....<span class="blinking">_</span> <br />
-			</h1>
-		</header>
-		<section class="section aboutme">
-			<div class="section__text">
-				<h2 class="section__heading">About</h2>
-				<p class="section__para">
-					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe
-					architecto et sed fugiat? Ab consequuntur aut quaerat id velit
-					accusantium quo ullam architecto vero sit, officiis commodi facere
-					officia itaque?
-				</p>
-			</div>
-			<div class="section__image">
-				<img src="http://placekitten.com/200/300" />
-			</div>
-		</section>
-		<section class="skills">
-			<aside class="cardlist">
-				<a class="cardlist__card1 item-card" onclick="card1()">html</a>
-				<a class="cardlist__card2 item-card" onclick="card2()">javascript</a>
-				<a class="cardlist__card3 item-card" onclick="card3()">react</a>
-				<a class="cardlist__card1 item-card" onclick="card4()">firebase</a>
-				<a class="cardlist__card2 item-card" onclick="card5()">spring</a>
-				<a class="cardlist__card3 item-card" onclick="card6()">c</a>
-			</aside>
-			<aside class="carddetail">
-				<div class="carddetail__card1" id="card1">
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam qui
-						voluptate, eveniet distinctio eos laudantium error illum
-						voluptatibus ad vitae dolorum aperiam animi expedita adipisci magni,
-						cumque perspiciatis suscipit. Non.
-					</p>
-				</div>
-				<div class="carddetail__card2" id="card2">
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-						recusandae sed illum, a corporis veritatis iure inventore assumenda
-						libero, perferendis voluptates repellat, et ex iusto ratione.
-						Corporis odit sunt recusandae!
-					</p>
-				</div>
-				<div class="carddetail__card3" id="card3">
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis
-						eius omnis natus magnam eaque earum enim voluptates architecto autem
-						totam quasi unde necessitatibus deserunt labore beatae, tenetur
-						cumque perspiciatis ipsa.
-					</p>
-				</div>
-			</aside>
-		</section>
-		<section class="section contact">
-			<div class="section__image">
-				<img src="http://placekitten.com/200/300" />
-			</div>
-			<div class="section__text">
-				<h2 class="section__heading">Section 3 heading</h2>
-				<p class="section__para">
-					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
-					minus tempore sequi enim blanditiis, praesentium consequuntur totam
-					tempora dolorem debitis facere beatae accusantium eveniet, vitae
-					repudiandae voluptate ratione! Sit, dolorum.
-				</p>
-			</div>
-		</section>
-		<script>
-			function card1() {
-				document.getElementById("card1").style.display = "block";
-				document.getElementById("card2").style.display = "none";
-				document.getElementById("card3").style.display = "none";
-			}
-			function card2() {
-				document.getElementById("card2").style.display = "block";
-				document.getElementById("card1").style.display = "none";
-				document.getElementById("card3").style.display = "none";
-			}
-			function card3() {
-				document.getElementById("card3").style.display = "block";
-				document.getElementById("card2").style.display = "none";
-				document.getElementById("card1").style.display = "none";
-			}
-		</script>
-	</body>
+        >
+        Enter username: CallMePho <br />
+        Enter password: ************* <br />
+        initializing profile.js....<br />
+        loading aboutMe....<br />
+        loading skillArray....<br />
+        <div>loading contactDetail....<span class="blinking">_</span></div>
+      </h1>
+    </header>
+    <section class="section skills">
+      <aside class="cardlist">
+        <a class="cardlist__card1 item-card" onclick="card1()">html</a>
+        <a class="cardlist__card2 item-card" onclick="card2()">javascript</a>
+        <a class="cardlist__card3 item-card" onclick="card3()">react</a>
+        <a class="cardlist__card1 item-card" onclick="card4()">firebase</a>
+        <a class="cardlist__card2 item-card" onclick="card5()">spring</a>
+        <a class="cardlist__card3 item-card" onclick="card6()">c</a>
+      </aside>
+      <aside class="carddetail">
+        <div class="carddetail__card1" id="card1">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam qui
+            voluptate, eveniet distinctio eos laudantium error illum
+            voluptatibus ad vitae dolorum aperiam animi expedita adipisci magni,
+            cumque perspiciatis suscipit. Non.
+          </p>
+        </div>
+        <div class="carddetail__card2" id="card2">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+            recusandae sed illum, a corporis veritatis iure inventore assumenda
+            libero, perferendis voluptates repellat, et ex iusto ratione.
+            Corporis odit sunt recusandae!
+          </p>
+        </div>
+        <div class="carddetail__card3" id="card3">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis
+            eius omnis natus magnam eaque earum enim voluptates architecto autem
+            totam quasi unde necessitatibus deserunt labore beatae, tenetur
+            cumque perspiciatis ipsa.
+          </p>
+        </div>
+      </aside>
+    </section>
+    <section class="section aboutme">
+      <div class="section__text">
+        <h2 class="section__heading">About</h2>
+        <p class="section__para">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe
+          architecto et sed fugiat? Ab consequuntur aut quaerat id velit
+          accusantium quo ullam architecto vero sit, officiis commodi facere
+          officia itaque?
+        </p>
+      </div>
+      <div class="section__image">
+        <img src="http://placekitten.com/200/300" />
+      </div>
+    </section>
+    <section class="section contact">
+      <div class="section__image">
+        <img src="http://placekitten.com/200/300" />
+      </div>
+      <div class="section__text">
+        <h2 class="section__heading">Section 3 heading</h2>
+        <p class="section__para">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
+          minus tempore sequi enim blanditiis, praesentium consequuntur totam
+          tempora dolorem debitis facere beatae accusantium eveniet, vitae
+          repudiandae voluptate ratione! Sit, dolorum.
+        </p>
+      </div>
+    </section>
+    <script>
+      function card1() {
+        document.getElementById("card1").style.display = "flex";
+        document.getElementById("card2").style.display = "none";
+        document.getElementById("card3").style.display = "none";
+      }
+      function card2() {
+        document.getElementById("card2").style.display = "flex";
+        document.getElementById("card1").style.display = "none";
+        document.getElementById("card3").style.display = "none";
+      }
+      function card3() {
+        document.getElementById("card3").style.display = "flex";
+        document.getElementById("card2").style.display = "none";
+        document.getElementById("card1").style.display = "none";
+      }
+    </script>
+  </body>
 </html>
