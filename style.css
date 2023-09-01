@@ -4,9 +4,10 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   font-family: "Inconsolata", monospace;
   background-color: #1a1b26;
-  z-index: 1;
 }
 
 .navbar {
@@ -33,30 +34,32 @@ body {
   justify-content: center;
 }
 
+.section {
+  z-index: 0;
+  height: 80vh;
+  box-shadow: 0 0 5px white;
+  border: 3px solid white;
+  border-radius: 10px;
+  position: sticky;
+}
+
 .skills {
   display: flex;
   align-items: flex-start;
   justify-content: center;
   background-color: #414868;
-  position: sticky;
-  top: 5%;
-}
-
-.section {
-  z-index: 1;
-  height: 100vh;
+  top: 40px;
 }
 
 .aboutme {
   background-color: #24283b;
-  position: sticky;
-  top: 10%;
+  top: 80px;
 }
 
 .contact {
   background-color: #414868;
-  position: sticky;
-  top: 15%;
+  position: -webkit-sticky;
+  top: 120px;
 }
 
 .section {
