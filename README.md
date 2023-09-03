@@ -1,6 +1,6 @@
-#Project - Portfolio Website
+# Project - Portfolio Website
 This website is built using html and scss/css only
-##Sections -
+## Sections -
 Landing page
 Skills
 Projects
