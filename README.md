@@ -8,14 +8,14 @@ This website is built using html and scss/css only
 
 ### Had to simplify website due to too many bugs
 
-###Landing page
+### Landing page -
 Terminal img and title heading
 
-###Skills
+### Skills -
 Card system to reveal each skill
 
-***Projects
+### Projects -
 Gird layout to display all projects
 
-***About Me
+### About Me -
 Brief desciption about me and links to socials
