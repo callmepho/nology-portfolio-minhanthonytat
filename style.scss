@@ -10,7 +10,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   overflow: hidden;
-  background-color: lightblue;
+  background-color: #07070a;
   position: fixed;
   top: 0;
   z-index: 1;
@@ -52,7 +52,7 @@ body {
 
   &__header {
     font-size: 40px;
-    padding-top: 10px;
+    padding-left: 10px;
   }
 }
 
@@ -69,7 +69,7 @@ body {
 
 .projects__header {
   font-size: 40px;
-  padding-top: 10px;
+  padding-left: 10px;
 }
 
 .project__grid {
@@ -91,7 +91,8 @@ body {
 
 .aboutMe__header {
   font-size: 40px;
-  padding-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 0;
 }
 
 .aboutMe__container {
