@@ -169,6 +169,12 @@ body {
   }
 }
 
+.grid__item__img {
+  width: 100%;
+  max-width: 890px;
+  max-height: 200px;
+}
+
 .aboutMe {
   background-color: #414868;
 }
@@ -228,12 +234,6 @@ body {
 .aboutMe__container__img__text {
   max-width: 50px;
   max-height: 50px;
-}
-
-.grid__item__img {
-  width: 100%;
-  max-width: 890px;
-  max-height: 200px;
 }
 
 .body__gap {
