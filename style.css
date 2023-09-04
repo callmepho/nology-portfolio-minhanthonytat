@@ -51,6 +51,9 @@ body {
 }
 
 .header__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: right;
   margin-top: 80px;
   color: white;
