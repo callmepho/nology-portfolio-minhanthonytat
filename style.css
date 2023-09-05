@@ -192,7 +192,7 @@ body {
 }
 .aboutMe__container__text {
   display: flex;
-  font-size: 50px;
+  font-size: 30px;
   padding: 5px;
   text-align: right;
   align-items: center;
