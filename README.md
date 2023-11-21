@@ -1,21 +1,5 @@
-# Project - Portfolio Website
-This website is built using html and scss/css only
-## Sections -
-*Landing page
-*Skills
-*Projects
-*Aboutme/contact
+# Project - Portfolio Website (React)
 
-### Had to simplify website due to too many bugs
+![image](https://github.com/callmepho/nology-portfolio-minhanthonytat/assets/47295382/7018d936-7c35-488e-b106-edcf2121a444)
 
-### Landing page -
-Terminal img and title heading
-
-### Skills -
-Card system to reveal each skill
-
-### Projects -
-Gird layout to display all projects
-
-### About Me -
-Brief desciption about me and links to socials
+My Portfolio website created using react.
