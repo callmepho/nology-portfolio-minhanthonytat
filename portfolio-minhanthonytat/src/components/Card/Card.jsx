@@ -6,13 +6,7 @@ const Card = ({ heading, desc, imgs, idx }) => {
       <div>
         <div className={styles.card_imgs}>
           {imgs.map((img) => {
-            return (
-              <img
-                key={img}
-                className={styles.card_img}
-                src={`../src/assets/${img}`}
-              />
-            );
+            return <img key={img} className={styles.card_img} src={`${img}`} />;
           })}
         </div>
         <h2>{heading}</h2>
