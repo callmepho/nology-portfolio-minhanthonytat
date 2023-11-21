@@ -1,0 +1,42 @@
+.section {
+  margin: 0 250px;
+  background-color: rgba(0, 0, 0, 0.39);
+  border-radius: 10px;
+  // border-image: linear-gradient(#0d1b2a, #778da9) 30;
+  // border-width: 4px;
+  // border-style: solid;
+  // box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: 1px solid rgba(255, 255, 255, 0.329);
+}
+
+.img {
+  width: 80%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 3s;
+}
+.links {
+  display: flex;
+  gap: 10px;
+}
+.summary {
+  width: 80%;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.hidden {
+  display: none;
+}

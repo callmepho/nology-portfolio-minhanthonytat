@@ -1,0 +1,19 @@
+.bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.img {
+  width: 80%;
+}
+
+.heading {
+  &:hover {
+    cursor: pointer;
+    transform: translate(0px, -2px);
+  }
+}
+.active {
+  text-decoration: underline;
+}
