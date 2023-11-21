@@ -1,0 +1,29 @@
+.carousel {
+  width: 100%;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  height: 400px;
+  margin: 0 auto;
+  max-width: 80%;
+  position: relative;
+}
+.arrow {
+  position: absolute;
+  z-index: 1;
+  width: 50px;
+  filter: invert(95%) sepia(93%) saturate(27%) hue-rotate(336deg)
+    brightness(105%) contrast(101%);
+  &:hover {
+    cursor: pointer;
+  }
+
+  &_left {
+    left: 50px;
+  }
+  &_right {
+    right: 50px;
+  }
+}
