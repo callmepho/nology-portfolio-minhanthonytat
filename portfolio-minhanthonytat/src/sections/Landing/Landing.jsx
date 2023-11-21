@@ -20,6 +20,7 @@ const Landing = () => {
           Junior Software Developer<span className={styles.cursor}>_</span>
         </h3>
       </div>
+      <span className={styles.caption}>Scroll Down</span>
     </div>
   );
 };
