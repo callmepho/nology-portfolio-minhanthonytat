@@ -4,7 +4,7 @@
 
 Deployed site : [Link](https://minhanthonytatportfolio.netlify.app/)
 
-##Description
+## Description
 My Portfolio website created using react. Contains list of skills and projects also a little about me.
 
 ## Tech-stack
