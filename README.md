@@ -27,5 +27,9 @@ npm run build
 Tried to make it a bit interative with a carousel for skills and card select for projects.
 Some elements of animation was included in the design.
 
+## Known Bugs
+Not mobile device friendly
+
 ## Future Goals
 Landing section is a bit blank. Planning to add some artwork/animation later on.
+Mobile layout
